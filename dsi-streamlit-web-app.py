@@ -12,7 +12,7 @@ import joblib
 
 
 # Load our model pipeline object
-model = joblib.load(r"D:\Islam\D\Learning\Data Science\Data Science Infinity\17- Machine Learning Model Deployment\Streamlit\model.joblib")
+model = joblib.load("model.joblib")
 
 
 # Add title and instructions 
